@@ -1,0 +1,14 @@
+[owner]
+name = "Joey McKenzie"
+
+[brewdude]
+env = "local"
+port = 8080
+
+[database]
+port =  5432
+username = "postgres"
+password = "postgres"
+server = "localhost"
+name = "postgres"
+connection = "postgresql://postgres:postgres@localhost:5432/postgres?sslmode=disable"
